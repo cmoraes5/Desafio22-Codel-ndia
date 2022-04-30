@@ -37,7 +37,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: green; */
     width: 100%;
     font-size: 2rem;
 }
@@ -45,11 +44,14 @@ nav{
 ul{
     display: flex;
     align-items: center;
-
 }
 
 li{
     margin: 0 2rem;
+}
+
+.nav-btn{
+    font-size: 1.2rem;
 }
 
 .community{
@@ -57,6 +59,13 @@ li{
     text-align: center;
     padding: 10px 18px;
     border-radius: 5px;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.github{
+    font-weight: 600;
+    transition: all .3s;
 }
 
 header{
@@ -94,6 +103,8 @@ main{
 }
 
 .box{
+    background-color: #171228;
+
     width: 420px;
     margin: 10px;
     padding: 20px;
@@ -107,23 +118,84 @@ main{
     flex-wrap: wrap;
 }
 
-.box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #883eff5b;
-}
-
 .img{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .img-default{
-    width: 30%;
+    width: 50%;
+    background-color: #0e091b;
+    padding: 0 25%;
+    border-radius: 10px;
+}
+
+.title-main{
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.description{
+    margin-top: 25px;
+}
+
+.buttons{
+    margin-top: 25px;
+    font-size: 15px
+}
+
+.btn{
+    font-variant: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 3.2rem;
+    font-weight: 600;
+}
+
+.btn1{
+    background: #04D361;
+    color: #0E091B;
+}
+
+.btn2{
+    border: 1px solid #04D361;
 }
 
 footer{
-    background-color:violet;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.autoral{
+    display: flex;
+    color: #AEAEAE;
+    font-size: 18px;
+}
+
+.logo{
+    color: #873EFF;
+    letter-spacing: 15px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copy{
+    margin-left: 25px
+}
+
+.codelandia{
+    margin-left: 35px
 }
 
 

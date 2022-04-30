@@ -1,0 +1,13 @@
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #883eff5b;
+}
+
+.github:hover{
+    text-shadow: 0 0 15px #873EFF;
+}
+
+.community:hover{
+    background-color: #873EFF;
+    color: #0E091B;
+}
