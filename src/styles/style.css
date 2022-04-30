@@ -64,6 +64,8 @@ li{
 }
 
 .github{
+    display: inline-block;
+    position: relative;
     font-weight: 600;
     transition: all .3s;
 }
@@ -157,6 +159,8 @@ main{
 }
 
 .btn1{
+    display: inline-block;
+    position: relative;
     background: #04D361;
     color: #0E091B;
 }
